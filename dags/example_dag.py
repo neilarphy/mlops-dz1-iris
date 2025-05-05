@@ -1,10 +1,10 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
-import logging as log
+import logging as loge
 
 def say_hello():
-    log.info("Hello from Airflow!")
+    loge.info("Hello from Airflow!")
 
 default_args = {
     'owner': 'airflow',
