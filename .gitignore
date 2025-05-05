@@ -4,3 +4,4 @@ model.pkl
 logs/
 __pycache__/
 .env
+*.json
